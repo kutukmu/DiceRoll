@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Die from "./Die"
+import RollDie from "./RollDie"
 import "../css/App.css"
 class App extends Component {
 
@@ -8,8 +8,7 @@ class App extends Component {
     render() {
 
         return <div className="container">
-            <Die face={"one"} />
-            <Die face={"five"} />
+            <RollDie />
         </div>
     }
 }

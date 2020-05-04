@@ -11,7 +11,7 @@ class Die extends Component {
         const props = this.props;
 
 
-        return <i className={`Die fas fa-dice-${props.face}`}></i>
+        return <i className={`Die fas fa-dice-${props.face} ${props.roll && "shake"}`}></i>
     }
 }
 
